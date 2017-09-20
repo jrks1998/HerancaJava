@@ -10,9 +10,9 @@ public class TestaHeranca {
 	public void test() {
 		Policia policia = new Policia();
 		assertEquals(policia.GetNome("eu"), "eu");
-		assertEquals(policia.GetCPF("123.456.789-10"), "123.456.789-10");
-		assertEquals(policia.GetEstado(), true);
-		assertEquals(policia.GetDecisao(), true);
+		assertEquals(policia.GetCpf("123.456.789-10"), "123.456.789-10");
+		assertEquals(policia.GetEstado(), false);
+		assertEquals(policia.GetDecisao(), false);
 		
 	}
 

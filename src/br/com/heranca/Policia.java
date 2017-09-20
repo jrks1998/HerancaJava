@@ -1,13 +1,13 @@
 package br.com.heranca;
 
-public class Policia extends Cidadao{
+public class Policia extends Cidadao {
 	
 	public boolean GetDecisao() {
 		if (bebeu == true) {
-			System.out.println("CE TA FUDIDO MEU PACERO!!");
+			System.out.println("Senhor " + nome + ", o senhor está preso por dirijir alcoolizado!");
 			return true;
 		} else {
-			System.out.println("ta liberado");
+			System.out.println("Senhor " + nome + ", o senhor está liberado!");
 			return false;
 		}
 	}
