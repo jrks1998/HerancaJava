@@ -21,16 +21,19 @@ public class TestaHeranca {
 		assertEquals(policia.GetNome(), "Lucao");
 		}
 	
+	@Test
 	public void testaCpf() {
 		policia.CPF("123.456.789-10");
 		assertEquals(policia.GetCpf(), "123.456.789-10");
 	}
 	
+	@Test
 	public void testaEstado() {
 		policia.Estado(true);
 		assertEquals(policia.GetEstado(), true);
 	}
 	
+	@Test
 	public void testaDecisao() {
 		policia.Estado(true);
 		assertEquals(policia.GetDecisao(), true);
