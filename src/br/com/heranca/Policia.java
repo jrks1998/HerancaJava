@@ -7,7 +7,7 @@ public class Policia extends Cidadao {
 			System.out.println("Senhor " + nome + ", o senhor está preso por dirijir alcoolizado!");
 			return true;
 		} else {
-			System.out.println("Senhor " + nome + ", o senhor está liberado!");
+			System.out.printf("Senhor " + nome + ", o senhor está liberado!");
 			return false;
 		}
 	}

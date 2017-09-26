@@ -3,7 +3,7 @@ package br.com.heranca;
 public class Cidadao {
 	String nome;
 	String cpf;
-	boolean bebeu = false;
+	boolean bebeu;
 	
 	public String GetNome(String nomee) {
 		return nome = nomee;
@@ -13,8 +13,8 @@ public class Cidadao {
 		return cpf = CpfCidadao;
 	}
 	
-	public boolean GetEstado() {
-		return bebeu;
+	public boolean GetEstado(boolean cachaca) {
+		return bebeu = cachaca;
 	}
 
 }
