@@ -5,15 +5,27 @@ public class Cidadao {
 	String cpf;
 	boolean bebeu;
 	
-	public String GetNome(String nomee) {
+	public String GetNome() {
+		return this.nome;
+	}
+	
+	public String GetCpf() {
+		return this.cpf;
+	}
+	
+	public boolean GetEstado() {
+		return bebeu;
+	}
+	
+	public String Nome(String nomee) {
 		return nome = nomee;
 	}
 	
-	public String GetCpf(String CpfCidadao) {
-		return cpf = CpfCidadao;
+	public String CPF(String cpfCidadao) {
+		return cpf = cpfCidadao;
 	}
 	
-	public boolean GetEstado(boolean cachaca) {
+	public boolean Estado(boolean cachaca) {
 		return bebeu = cachaca;
 	}
 

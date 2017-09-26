@@ -4,7 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		Policia policia = new Policia();
-		policia.GetNome("eu mesmo");
+		policia.Nome("Lucao");
+		policia.Estado(false);
 		policia.GetDecisao();
 		}
 
