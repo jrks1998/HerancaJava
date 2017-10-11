@@ -30,13 +30,13 @@ public class TestaHeranca {
 	@Test
 	public void testaEstado() {
 		policia.Estado(true);
-		assertEquals(policia.GetEstado(), true);
+		assertTrue(policia.GetEstado());
 	}
 	
 	@Test
 	public void testaDecisao() {
 		policia.Estado(true);
-		assertEquals(policia.GetDecisao(), true);
+		assertTrue(policia.GetDecisao());
 	}
 	
 }
